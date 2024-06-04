@@ -19,12 +19,16 @@ function MainHeader() {
     setDropdownVisible(!dropdownVisible);
   };
 
+  const handleSearchClick = () => {
+    navigate('/main');
+  };
+
   return (
     <header className="main-header">
       <div className="header-content">
         <h1 className="header-title">MovieMe</h1>
         <div className="header-buttons">
-          <button className="header-button">Search</button>
+          <button className="header-button" onClick={handleSearchClick}>Search</button>
           <button className="header-button">Library</button>
           <div className="header-profile-container">
             <button className="header-profile-button" onClick={toggleDropdown}>

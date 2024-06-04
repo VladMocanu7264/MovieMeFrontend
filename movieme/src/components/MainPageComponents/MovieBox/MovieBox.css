@@ -5,9 +5,26 @@
   margin: 10px;
   color: var(--bkg-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .movie-title {
   font-size: 1.5rem;
-  margin: 0 0 10px 0;
+  margin: 0;
+}
+
+.details-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: var(--light-primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: var(--darker-primary-color);
 }

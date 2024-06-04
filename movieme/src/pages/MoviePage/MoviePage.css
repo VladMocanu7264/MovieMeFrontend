@@ -1,0 +1,49 @@
+.MoviePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MoviePage-content {
+    width: 60%;
+    background-color: var(--pastel-light-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15vh;
+    color: var(--bkg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MoviePage-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .MoviePage-details {
+    text-align: left;
+  }
+  
+  .MoviePage-details p {
+    margin: 10px 0;
+  }
+  
+  .MoviePage-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .MoviePage-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--light-primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .MoviePage-button:hover {
+    background-color: var(--darker-primary-color);
+  }

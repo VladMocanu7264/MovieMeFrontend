@@ -21,12 +21,12 @@ function MainPage() {
       const response = await fetch(url, {
         method: 'GET',
         headers: headers,
-        cache: 'no-store', // Ensure no caching
+        cache: 'no-store',
       });
 
       if (response.ok) {
         const data = await response.json();
-        console.log('Fetched movies:', data); // Debugging log
+        console.log('Fetched movies:', data);
         setMovies(data);
       } else {
         console.error('Failed to fetch movies', response.status);
