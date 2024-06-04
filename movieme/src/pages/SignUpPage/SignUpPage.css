@@ -1,0 +1,77 @@
+.SignUpPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bkg-color);
+}
+
+.SignUpPage-body {
+    display: flex;
+    height: 90%;
+}
+
+.SignUpPage-left,
+.SignUpPage-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignUpPage-left {
+    background-color: var(--bkg-color);
+}
+
+.SignUpPage-image {
+    margin-top: 18%;
+    width: 40%;
+}
+
+.SignUpPage-title {
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.SignUpPage-form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignUpPage-label {
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.SignUpPage-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.SignUpPage-button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 10px;
+    color: white;
+    background-color: var(--light-primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.SignUpPage-button:hover {
+    background-color: var(--darker-primary-color);
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bkg-color);
+}
+
+.LandingPage-body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.LandingPage {
+    margin: 0;
+    background: url('../photos/landing-page-bkg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.LandingPage-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LandingPage-title {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.LandingPage-subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0 20px 0;
+}
+
+.LandingPage-button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 10px;
+    color: var(--text-color);
+    background-color: var(--light-primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.LandingPage-button:hover {
+    background-color: var(--darker-primary-color);
+}

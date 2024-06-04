@@ -1,0 +1,77 @@
+.LoginPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bkg-color);
+  }
+  
+  .LoginPage-body {
+    display: flex;
+    height: 90%;
+  }
+  
+  .LoginPage-left, .LoginPage-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .LoginPage-left {
+    background-color: var(--bkg-color);
+  }
+  
+  .LoginPage-image {
+    margin-top: 18%;
+    color: var(--text-color);
+    width: 40%;
+  }
+  
+  .LoginPage-title {
+    color: var(--text-color);
+    margin-top: 20px;
+  }
+  
+  .LoginPage-form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .LoginPage-label {
+    color: var(--text-color);
+    margin-top: 10px;
+  }
+  
+  .LoginPage-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+  }
+  
+  .LoginPage-button {
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin: 10px;
+    color: var(--text-color);
+    background-color: var(--light-primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .LoginPage-button:hover {
+    background-color: var(--darker-primary-color);
+  }
+
+  .error-message {
+    color: var(--light-primary-color);
+    margin-top: 10px;
+  }
