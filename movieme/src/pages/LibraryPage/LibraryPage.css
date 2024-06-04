@@ -4,35 +4,38 @@
     align-items: center;
     background-color: var(--bkg-color);
     min-height: 100vh;
-  }
-  
-  .LibraryPage-content {
+}
+
+.LibraryPage-content {
     margin-top: 15vh;
     width: 80%;
     padding: 20px;
-  }
-  
-  .LibraryPage-title {
+}
+
+.LibraryPage-title {
     font-size: 2.5rem;
     color: var(--text-color);
     margin-bottom: 20px;
-  }
-  
-  .LibraryPage-lists {
+}
+
+.LibraryPage-lists {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .LibraryPage-list {
+}
+
+.LibraryPage-list {
     width: 48%;
     background-color: var(--pastel-light-color);
     border-radius: 10px;
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .LibraryPage-listTitle {
-    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.LibraryPage-listTitle {
+    font-size: 2rem;
     color: var(--bkg-color);
     margin-bottom: 20px;
-  }
+}
